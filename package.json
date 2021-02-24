@@ -46,6 +46,6 @@
   },
   "dependencies": {
     "vue": "^2.6.12",
-    "vue-locality": "0.0.2"
+    "vue-locality": "^0.0.4"
   }
 }
