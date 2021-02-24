@@ -1,0 +1,51 @@
+{
+  "name": "nuxt-vue-locality",
+  "version": "0.0.1",
+  "description": "Plugin for Brazilian localities",
+  "main": "lib/module.js",
+  "scripts": {
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "test": "jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krenak-code/nuxt-vue-locality.git"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "locality",
+    "brazil"
+  ],
+  "author": "yaacovdesign",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krenak-code/nuxt-vue-locality/issues"
+  },
+  "homepage": "https://github.com/krenak-code/nuxt-vue-locality#readme",
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-config-typescript": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@vue/test-utils": "^1.1.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.20.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "jest": "^26.5.0",
+    "nuxt": "^2.15.2",
+    "standard-version": "^9.1.1",
+    "supertest": "^6.0.1",
+    "ts-jest": "^26.4.1",
+    "vue-jest": "^3.0.4"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-locality": "0.0.2"
+  }
+}
