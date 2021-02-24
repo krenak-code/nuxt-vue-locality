@@ -7,7 +7,7 @@
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "npm run lint:js",
     "test": "jest",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+    "release": "npm test && standard-version && git push --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
