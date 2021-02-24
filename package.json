@@ -1,6 +1,6 @@
 {
   "name": "nuxt-vue-locality",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin for Brazilian localities",
   "main": "lib/module.js",
   "scripts": {
